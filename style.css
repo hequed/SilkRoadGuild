@@ -27,7 +27,7 @@
     text-align: center;
     color: orangered;
     background-color: rgb(72, 83, 51);
-    background-image: url(./media/starsky.jpeg);
+    background-image: url(/media/starsky.jpeg);
     background-repeat: no-repeat;
     background-position: top;
     background-blend-mode: luminosity;
@@ -66,7 +66,7 @@
 /* * PANEL PRINCIPAL CONFIGS */
 .section-principal {
     color: white;
-    background-image: url(./media/saitama.jpg);
+    background-image: url(/media/saitama.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(70, 80, 50);
@@ -89,7 +89,7 @@
 
     .trademark {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -100,6 +100,16 @@
             font-family: 'DM Serif Display', serif;
             font-size: 5em;
             text-shadow: rgb(0, 0, 0) 5px 0 15px;
+        }
+
+        p {
+            color: orangered;
+            font-weight: 700;
+            font-family: 'DM Serif Display', serif;
+            text-shadow: rgb(0, 0, 0) 5px 0 15px;
+            background-color: rgba(0, 0, 0, 0.800);
+            padding: 10px;
+            border-radius: 10px;
         }
 
         img {
@@ -220,7 +230,7 @@
     position: relative;
     color: white;
     background-color: rgb(72, 83, 51);
-    background-image: url(./media/wallpaper.jpg);
+    background-image: url(/media/wallpaper.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -476,7 +486,7 @@ footer {
     text-align: center;
     background-color: rgb(70, 80, 50);
     background-blend-mode: luminosity;
-    background-image: url(./media/starsky.jpeg);
+    background-image: url(/media/starsky.jpeg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -505,6 +515,152 @@ footer {
             height: 100px;
             width: 100px;
             padding: 10px;
+        }
+    }
+}
+
+/* ! MEDIA QUERYS ------------------------------------------ */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* ? Estilos para pantallas con ancho entre 320px y 480px */
+
+    .regla-de-oro {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            text-align: center;
+            padding: 5px;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .panel-principal {
+        align-items: center;
+        flex-wrap: nowrap;
+
+        h2 {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 10px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.500);
+            border-radius: 10px;
+            text-shadow: rgb(0, 0, 0) 5px 0 15px;
+        }
+
+        p {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 10px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.500);
+            border-radius: 10px;
+            text-shadow: rgb(0, 0, 0) 5px 0 15px;
+        }
+
+        .trademark {
+            align-items: center;
+            margin-top: 170px;
+            padding: 0px;
+
+            h1 {
+                font-size: 3.5em;
+                text-align: center;
+            }
+        }
+
+        .redes-sociales {
+            text-align: center;
+
+            i {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .panel-botones {
+        a {
+            font-size: 0.75em;
+        }
+    }
+
+    .discord {
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 25px;
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .bienvenida {
+        flex-wrap: nowrap;
+
+        img {
+            display: none;
+        }
+
+        h2 {
+            font-size: 2em;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 250px;
+        }
+    }
+
+    .bento-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bento-item-one,
+    .bento-item-two,
+    .bento-item-tree,
+    .bento-item-four {
+        width: 320px;
+        margin-bottom: 20px;
+        height: 500px;
+    }
+
+    .degradado {
+        height: 150px;
+        /* Ajusta la altura según tus necesidades */
+    }
+
+    h3,
+    h4,
+    p {
+        font-size: .8em;
+        text-align: start;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            padding: 20px;
+            text-align: center;
         }
     }
 }
