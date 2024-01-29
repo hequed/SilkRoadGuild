@@ -27,7 +27,7 @@
     text-align: center;
     color: orangered;
     background-color: rgb(72, 83, 51);
-    background-image: url(/media/starsky.jpeg);
+    background-image: url(./media/starsky.jpeg);
     background-repeat: no-repeat;
     background-position: top;
     background-blend-mode: luminosity;
@@ -66,7 +66,7 @@
 /* * PANEL PRINCIPAL CONFIGS */
 .section-principal {
     color: white;
-    background-image: url(/media/saitama.jpg);
+    background-image: url(./media/saitama.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(70, 80, 50);
@@ -230,7 +230,7 @@
     position: relative;
     color: white;
     background-color: rgb(72, 83, 51);
-    background-image: url(/media/wallpaper.jpg);
+    background-image: url(./media/wallpaper.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -486,7 +486,7 @@ footer {
     text-align: center;
     background-color: rgb(70, 80, 50);
     background-blend-mode: luminosity;
-    background-image: url(/media/starsky.jpeg);
+    background-image: url(./media/starsky.jpeg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
