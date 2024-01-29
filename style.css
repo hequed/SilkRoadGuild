@@ -27,7 +27,7 @@
     text-align: center;
     color: orangered;
     background-color: rgb(72, 83, 51);
-    background-image: url(/media/starsky.jpeg);
+    background-image: url(../media/starsky.jpeg);
     background-repeat: no-repeat;
     background-position: top;
     background-blend-mode: luminosity;
@@ -66,7 +66,7 @@
 /* * PANEL PRINCIPAL CONFIGS */
 .section-principal {
     color: white;
-    background-image: url(/media/saitama.jpg);
+    background-image: url(../media/saitama.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(70, 80, 50);
@@ -220,7 +220,7 @@
     position: relative;
     color: white;
     background-color: rgb(72, 83, 51);
-    background-image: url(/media/wallpaper.jpg);
+    background-image: url(../media/wallpaper.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -276,7 +276,7 @@
         z-index: 0;
         grid-area: 1 / 1 / 4 / 5;
         border-radius: 10px;
-        background-image: url(./media/publicista.jpg);
+        background-image: url(../media/publicista.jpg);
         background-color: rgba(172, 255, 50, 0.340);
         background-position: center;
         background-size: cover;
@@ -325,7 +325,7 @@
         z-index: 0;
         grid-area: 1 / 5 / 4 / 11;
         border-radius: 10px;
-        background-image: url(./media/abstractworld.png);
+        background-image: url(../media/abstractworld.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -373,7 +373,7 @@
         z-index: 0;
         grid-area: 4 / 1 / 7 / 7;
         border-radius: 10px;
-        background-image: url(./media/faerie.jpg);
+        background-image: url(../media/faerie.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -421,7 +421,7 @@
         z-index: 0;
         grid-area: 4 / 7 / 7 / 11;
         border-radius: 10px;
-        background-image: url(./media/underdog.jpg);
+        background-image: url(../media/underdog.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -476,7 +476,7 @@ footer {
     text-align: center;
     background-color: rgb(70, 80, 50);
     background-blend-mode: luminosity;
-    background-image: url(/media/starsky.jpeg);
+    background-image: url(../media/starsky.jpeg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
