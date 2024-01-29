@@ -521,7 +521,7 @@ footer {
 
 /* ! MEDIA QUERYS ------------------------------------------ */
 
-@media only screen and (min-width: 320px) and (max-width: 580px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     /* ? Estilos para pantallas con ancho entre 320px y 480px */
 
     .regla-de-oro {
